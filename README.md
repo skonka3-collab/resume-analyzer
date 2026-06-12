@@ -1,10 +1,11 @@
 # Resume Analyzer
 
-A Streamlit web application that analyzes PDF resumes, extracts text, supports multiple Indian languages, translates non-English resumes to English, calculates ATS readiness, and provides improvement suggestions.
+A bilingual Streamlit web application with English and Telugu website themes. It analyzes PDF resumes, extracts text, supports multiple Indian resume languages, translates non-English resumes to English, calculates ATS readiness, and provides improvement suggestions.
 
 ## Features
 
 - Upload PDF resumes
+- Switch the complete website interface between English and Telugu
 - Extract text from PDF files using PyPDF2
 - Auto-detect supported resume languages
 - Manually select resume language when auto-detection is uncertain
@@ -18,7 +19,12 @@ A Streamlit web application that analyzes PDF resumes, extracts text, supports m
 - Show strengths, areas for improvement, and resume improvement suggestions
 - Handle unreadable PDFs, unsupported languages, and translation errors gracefully
 
-## Supported Languages
+## Website Theme Languages
+
+- English
+- Telugu
+
+## Supported Resume Languages
 
 - English
 - Telugu
@@ -103,10 +109,11 @@ http://localhost:8501
 
 Then:
 
-1. Upload a PDF resume.
-2. Select **Auto Detect** or choose the resume language manually.
-3. Optionally paste a job description for keyword matching.
-4. Review ATS score, detected skills, section analysis, strengths, and improvement suggestions.
+1. Select the website language: **English** or **తెలుగు**.
+2. Upload a PDF resume.
+3. Select **Auto Detect** or choose the resume language manually.
+4. Optionally paste a job description for keyword matching.
+5. Review ATS score, detected skills, section analysis, strengths, and improvement suggestions.
 
 ## Notes
 
